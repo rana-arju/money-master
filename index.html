@@ -34,7 +34,7 @@
                             <label for="income" class="col-form-label">Income</label>
                         </div>
                         <div class="col-auto">
-                            <input type="text" id="income" class="form-control">
+                            <input type="text" id="income" class="form-control" id = "income-input">
                         </div>
 
                     </div>
@@ -44,7 +44,7 @@
                             <label for="expenses" class="col-form-label">Food</label>
                         </div>
                         <div class="col-auto">
-                            <input type="text" id="expenses" class="form-control">
+                            <input type="text" id="expenses" class="form-control" id ="food-input">
                         </div>
 
                     </div>
@@ -53,7 +53,7 @@
                             <label for="rent" class="col-form-label">Rent</label>
                         </div>
                         <div class="col-auto">
-                            <input type="text" id="rent" class="form-control">
+                            <input type="text" id="rent" class="form-control" id=""rent-input>
                         </div>
 
                     </div>
@@ -62,13 +62,13 @@
                             <label for="clothes" class="col-form-label">clothes</label>
                         </div>
                         <div class="col-auto">
-                            <input type="text" id="clothes" class="form-control">
+                            <input type="text" id="clothes" class="form-control" id = "clothes-input">
                         </div>
 
                     </div>
                     <button type="button" class="btn btn-primary my-2">Calculate</button>
-                    <p>Total Expenses: <span>5000</span></p>
-                    <p>Balance:<span>4500</span></p>
+                    <p>Total Expenses: <span id="total-expensive">5000</span></p>
+                    <p>Balance:<span id="total-balance">4500</span></p>
 
                     <!-- saving Area -->
                     <div class="input-group justify-content-center mb-3">
@@ -76,14 +76,14 @@
                             <label for="save" class="col-form-label">Save</label>
                         </div>
                         <div class="col-auto">
-                        <input type="text" class="form-control" id="save">
+                        <input type="text" class="form-control" id="save" id="save-input">
                         </div>
                         <span class="input-group-text">$</span>
-                        <span class="input-group-text bg-primary text-white">save</span>
+                        <button class="input-group-text btn btn-primary" type="button" id="save-btn">save</button>
                     </div>
                     <!-- after saving -->
-                    <p>Saving Amount:<span>2000</span></p>
-                    <p>Remaining Balance:<span>2500</span></p>
+                    <p>Saving Amount:<span id="saving-amount">2000</span></p>
+                    <p>Remaining Balance:<span id="remaining-amount">2500</span></p>
                 </div>
             </div>
             <!-- Right Side End -->
