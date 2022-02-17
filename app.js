@@ -1,6 +1,4 @@
 function moneySaveCalculate(saveId) {
-// document.getElementById(id).addEventListener("click", function(){
-        // Coommon Functionality start
     const incomeInput = document.getElementById("income-input");
     const incomeInputValue = parseFloat(incomeInput.value);
     const foodInput = document.getElementById("food-input");
@@ -65,7 +63,6 @@ function moneySaveCalculate(saveId) {
             document.getElementById("saving-amount").style.display = "none";
         }
     }
-// })
 };
 document.getElementById("total-expensive-btn").addEventListener("click", function(){
 moneySaveCalculate();
