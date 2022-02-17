@@ -17,12 +17,19 @@ img {
 
 /* rigth side style */
 .right-side {
-     background: #F8F8F8;
-     padding: 20px 0;
-     border-radius: 10px;
+    background: #F8F8F8;
+    padding: 20px 0;
+    border-radius: 10px;
 }
 
-.alert{
+/* All alert message display block */
+.string-alert,
+.number-alert,
+.saving-error,
+.number-alert-save,
+.income-alert,
+.expensive-alert,
+.saving-alert {
     background-color: tomato;
     color: #F8F8F8;
     display: none;

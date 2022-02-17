@@ -29,6 +29,7 @@
                 <div class="right-side text-center">
                     <!-- Monthly Money Calculation area Start -->
                     <p class="text-center text-capitalize">income</p>
+                    <p class="income-alert" id="income-alert">Please, Enter only positive Number not negetive or char</p>
                     <div class="row g-3 justify-content-center align-items-center my-3">
                         <div class="col-auto">
                             <label for="income-input" class="col-form-label">Income</label>
@@ -67,8 +68,9 @@
 
                     </div>
                     <button type="button" class="btn btn-primary my-2" id = "total-expensive-btn">Calculate</button>
-                    <p class="alert" id="alert">Please, Give All Input Number Value! </p>
-                    <p>Total Expenses: <span id="total-expensive"> 00</span></p>
+                    <p class="string-alert" id="string-alert">Please, Give All Input Number Value! </p>
+                    <p class="number-alert" id="number-alert">Please, Give All Possitive Number! </p>
+                    <p>Total Expenses: <span id="total-expensive"> 00</span><span class="expensive-alert" id="expensive-alert">Your Income less the Expensive! 😥😥</span></p>
                     <p>Balance:<span id="total-balance"> 00</span></p>
 
                     <!-- saving Area -->
@@ -83,7 +85,7 @@
                         <button class="input-group-text btn btn-primary" type="button" id="save-btn">save</button>
                     </div>
                     <!-- after saving -->
-                    <p>Saving Amount: <span id="saving-amount"> 00</span></p>
+                    <p>Saving Amount: <span id="saving-amount"> 00</span><span class="saving-error" id="saving-error">Please, enter a Number Not Charactar</span><span class="number-alert-save" id="number-alert-save">Please, Give All Possitive Number!😍</span><span class="saving-alert" id="saving-alert">Your Balance less then Saving amount 😥😥</span></p>
                     <p>Remaining Balance: <span id="remaining-amount"> 00</span></p>
                 </div>
             </div>
