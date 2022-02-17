@@ -21,3 +21,9 @@ img {
      padding: 20px 0;
      border-radius: 10px;
 }
+
+.alert{
+    background-color: tomato;
+    color: #F8F8F8;
+    display: none;
+}
