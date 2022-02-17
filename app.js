@@ -33,7 +33,7 @@ document.getElementById(id).addEventListener("click", function(){
                 document.getElementById("expensive-alert").style.display = "none";
 
             }}else{
-                document.getElementById("number-alert").style.display = "block"
+                document.getElementById("number-alert").style.display = "block";
             }
         }
         else{
@@ -55,9 +55,7 @@ document.getElementById(id).addEventListener("click", function(){
                 document.getElementById("saving-amount").style.display = "block";
                 document.getElementById("number-alert-save").style.display = "none";
                 document.getElementById("saving-alert").style.display = "none";
-
             }
-
             }else{
                 document.getElementById("number-alert-save").style.display = "block"
             }

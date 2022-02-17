@@ -6,22 +6,18 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 img {
     width: 100%;
 }
-
 /* rigth side style */
 .right-side {
     background: #F8F8F8;
     padding: 20px 0;
     border-radius: 10px;
 }
-
 /* All alert message display block */
 .string-alert,
 .number-alert,
