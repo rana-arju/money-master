@@ -1,5 +1,5 @@
-function moneySaveCalculate(id, saveId) {
-document.getElementById(id).addEventListener("click", function(){
+function moneySaveCalculate(saveId) {
+// document.getElementById(id).addEventListener("click", function(){
         // Coommon Functionality start
     const incomeInput = document.getElementById("income-input");
     const incomeInputValue = parseFloat(incomeInput.value);
@@ -65,7 +65,12 @@ document.getElementById(id).addEventListener("click", function(){
             document.getElementById("saving-amount").style.display = "none";
         }
     }
-})
+// })
 };
-moneySaveCalculate("total-expensive-btn");
-moneySaveCalculate("save-btn","save-input");
+document.getElementById("total-expensive-btn").addEventListener("click", function(){
+moneySaveCalculate();
+});
+
+document.getElementById("save-btn").addEventListener("click", function(){
+moneySaveCalculate("save-input");
+});
